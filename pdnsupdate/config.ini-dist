@@ -1,0 +1,13 @@
+[DEFAULT]
+public_ip_provider = http://ifconfig.me
+local_name =
+
+[DNS]
+dns_server =
+dns_port = 53
+dns_tsig_name =
+dns_tsig_value =
+dns_tsig_algorithm = hmac-md5
+
+[PERSIST]
+persit_file = data/persistance.db
