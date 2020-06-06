@@ -5,10 +5,10 @@ import shelve
 from RFC2136 import *
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
@@ -30,6 +30,8 @@ def main(force=False):
     if has_changed(ip) or force:
         logger.info("Updating IP")
         update_ip(ip)
+    else:
+        logger.info("No modification")
     shelf.close()
 
 
