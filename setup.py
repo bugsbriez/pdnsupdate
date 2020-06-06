@@ -10,7 +10,7 @@ setup(
     author_email='benoit.sage@gmail.com',
     description="Update dinamicaly public address on RFC2136 DNS",
     long_description=open('README.rst').read(),
-    install_requires=['requests', 'pythondns'],
+    install_requires=['requests', 'dnspython'],
     include_package_data=True,
     url='http://github.com/bugsbriez/pdnsupdate',
     classifiers=[
