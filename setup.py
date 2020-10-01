@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     author='Benoit SAGE',
     author_email='benoit.sage@gmail.com',
-    description="Update dinamicaly public address on RFC2136 DNS",
+    description="Update dynamically public address on RFC2136 DNS",
     long_description=open('README.rst').read(),
     install_requires=['requests', 'dnspython'],
     include_package_data=True,
