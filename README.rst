@@ -3,11 +3,11 @@ pdnsupdate
 
 Use RFC2136 to update record on powerdns with a call to external IP resolver
 
-RFC236 par is inspired from certbot_dns_rfc2136
+RFC236 part is inspired from certbot_dns_rfc2136
 
 PowerDNS config
 ---------------
-You need to configure PowerDNS to a;;ow dynamic update (server wide or per zone) :
+You need to configure PowerDNS to allow dynamic update (server wide or per zone) :
 https://doc.powerdns.com/authoritative/dnsupdate.html#setting-up-dhcpd
 
 For example for per zone settings :
